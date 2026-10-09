@@ -1,6 +1,6 @@
 import express from "express"
 
-const X_API_KEY="live_dFEf9Bq05rrBSsi09oqnkHaDugJ03lSKk5DNdv4WhtHFHdz0zSK5AAGeNTy1udeo"
+const X_API_KEY = process.env.CAT_API_KEY
 const server = express()
 
 const PORT = 8200
